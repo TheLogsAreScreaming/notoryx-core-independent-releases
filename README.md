@@ -16,7 +16,7 @@ Progress so far:
 | Command queue and Wi-Fi (TCP) connection | Done |
 | Bluetooth connection | Done |
 | USB connection (Android; Mac later) | Done |
-| Contacts, messages and channels | In progress: storage in review |
+| Contacts, messages and channels | Storage done, radio sync in review |
 | Chats, nodes, map and radio screens | Planned |
 
 The first test build will appear here once the app can connect to a radio and send and receive messages.
