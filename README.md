@@ -13,7 +13,7 @@ Progress so far:
 | Part | State |
 |---|---|
 | Radio protocol (commands and replies) | Done |
-| Command queue and Wi-Fi (TCP) connection | In review |
+| Command queue and Wi-Fi (TCP) connection | Done |
 | Bluetooth and USB connections | Next |
 | Contacts, messages and channels | Planned |
 | Chats, nodes, map and radio screens | Planned |
@@ -27,7 +27,7 @@ The new app has its own app ID, so you can keep both installed. It shows up as *
 | | Current NOTORYX Core | NOTORYX Independent |
 |---|---|---|
 | Android app ID | `com.bastionmesh.bastion` | `com.bastionmesh.notoryx_core` |
-| iPhone and Mac bundle ID | `com.bastionmesh.bastion` | `com.bastionmesh.notoryxCore` |
+| Mac bundle ID | `com.bastionmesh.bastion` | `com.bastionmesh.notoryxCore` |
 | Downloads | [notoryx-core-releases](https://github.com/TheLogsAreScreaming/notoryx-core-releases) | here |
 
 The two apps don't share data. Contacts and channels stored on your radio show up in both, because they live on the radio.
