@@ -4,7 +4,7 @@
 
 This repository hosts builds of the new NOTORYX Core for Android, iPhone and Mac. Get them from **[Releases](../../releases)**.
 
-## Status: in development, first test build out
+## Status: in development, test builds out
 
 This edition of NOTORYX Core is being written from scratch in [notoryx-core-independent](https://github.com/TheLogsAreScreaming/notoryx-core-independent). Until it matches the current app's features, the current NOTORYX Core keeps shipping from [notoryx-core-releases](https://github.com/TheLogsAreScreaming/notoryx-core-releases) and stays the one to use every day.
 
@@ -20,7 +20,7 @@ Progress so far:
 | Connect, chats, contacts and conversation screens | Done |
 | Nodes, map and radio settings screens | Planned |
 
-The first test build, **[0.1.0 test 1](../../releases/tag/v0.1.0-test.1)**, connects to a radio over Bluetooth, USB (Android) or Wi-Fi and sends and receives channel and direct messages. It's for testing; keep using the current NOTORYX Core day to day.
+The latest test build, **[0.1.0 test 3](../../releases/tag/v0.1.0-test.3)**, connects to a radio over Bluetooth, USB (Android) or Wi-Fi and sends and receives channel and direct messages. It's for testing; keep using the current NOTORYX Core day to day.
 
 ## Installs alongside the current app
 
