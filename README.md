@@ -15,7 +15,7 @@ Progress so far:
 | Radio protocol (commands and replies) | Done |
 | Command queue and Wi-Fi (TCP) connection | Done |
 | Bluetooth connection | Done |
-| USB connection (Android and Mac) | In review |
+| USB connection (Android; Mac later) | In review |
 | Contacts, messages and channels | Next |
 | Chats, nodes, map and radio screens | Planned |
 
