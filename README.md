@@ -17,7 +17,8 @@ Progress so far:
 | Bluetooth connection | Done |
 | USB connection (Android; Mac later) | Done |
 | Contacts, messages and channels | Done |
-| Chats, nodes, map and radio screens | Next |
+| Connect, chats, contacts and conversation screens | In review |
+| Nodes, map and radio settings screens | Planned |
 
 The first test build will appear here once the app can connect to a radio and send and receive messages.
 
