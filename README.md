@@ -20,6 +20,7 @@ Progress so far:
 | Connect, chats, contacts and conversation screens | Done |
 | Reliable direct messages (retries, flood fallback, resend) | Done |
 | Automatic reconnect (at launch and after a drop) | Done |
+| Local mesh settings (suggests your area's radio settings) | In review |
 | Nodes, map and radio settings screens | Planned |
 
 The latest test build, **[0.1.0 test 5](../../releases/tag/v0.1.0-test.5)**, connects to a radio over Bluetooth, USB (Android) or Wi-Fi, sends and receives channel and direct messages, retries direct messages until they're delivered, and reconnects to your radio by itself. It's for testing; keep using the current NOTORYX Core day to day.
@@ -55,6 +56,10 @@ Android builds are signed with the NOTORYX Independent release key (certificate 
 ## Works with
 
 [MeshCore](https://meshcore.io/) companion radios over Bluetooth, USB or Wi-Fi. Firmware v1.18 is the main target; older firmware is supported where the protocol allows.
+
+## Local mesh settings
+
+[`regional_presets.json`](regional_presets.json) lists areas whose meshes use different radio settings from the usual ones for their part of the world, such as Phoenix on 908.205 MHz / 62.5 / SF9. Most are worked out from the public [MeshCore map](https://map.meshcore.io), where node owners report their settings, so they aren't checked on air. The app checks this file at launch and also ships a built-in copy. If your area is missing or wrong, [open an issue](../../issues/new) and say where the settings come from.
 
 ## Reporting problems
 
