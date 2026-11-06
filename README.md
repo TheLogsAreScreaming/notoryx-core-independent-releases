@@ -20,14 +20,15 @@ Progress so far:
 | Connect, chats, contacts and conversation screens | Done |
 | Reliable direct messages (retries, flood fallback, resend) | Done |
 | Automatic reconnect (at launch and after a drop) | Works on Mac; fixing Android |
+| Unread counts, muting and notifications | Done |
 | Local mesh settings (suggests your area's radio settings) | In review |
 | Nodes, map and radio settings screens | Planned |
 
-The latest test build, **[0.1.0 test 6](../../releases/tag/v0.1.0-test.6)**, connects to a radio over Bluetooth, USB (Android) or Wi-Fi, sends and receives channel and direct messages, retries direct messages until they're delivered, and reconnects to your radio by itself. It's for testing; keep using the current NOTORYX Core day to day.
+The latest test build, **[0.1.0 test 7](../../releases/tag/v0.1.0-test.7)**, connects to a radio over Bluetooth, USB (Android) or Wi-Fi, sends and receives channel and direct messages, retries direct messages until they're delivered, reconnects by itself, and shows unread counts and notifications.
 
 ## Installs alongside the current app
 
-The new app has its own app ID, so you can keep both installed. It shows up as **NOTORYX Independent** while it's in development.
+The new app has its own app ID, so you can keep both installed. It shows up as **NOTORYX Independent**, with a silver NOTORYX icon, while it's in development.
 
 | | Current NOTORYX Core | NOTORYX Independent |
 |---|---|---|
