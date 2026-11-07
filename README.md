@@ -23,11 +23,16 @@ Progress so far:
 | Unread counts, muting and notifications | Done |
 | Add, share and manage contacts and channels | Done |
 | Radio settings and local mesh presets | Done |
-| Local mesh settings (suggests your area's radio settings) | In review |
+| Local mesh settings (suggests your area's radio settings) | Done |
 | Map and node details | Done |
 | QR codes for contacts and channels | Done |
+| Repeater and room tools (log in, status, console) | Done |
+| Message search | In review |
+| Delivery details for sent messages | In review |
+| Staying connected in the background (Android) | In progress |
+| Path trace | Planned |
 
-The latest test build, **[0.1.0 test 10](../../releases/tag/v0.1.0-test.10)**, connects to a radio over Bluetooth, USB (Android) or Wi-Fi, sends and receives channel and direct messages with retries, reconnects by itself, shows unread counts and notifications, manages contacts and channels (with QR codes), changes the radio's own settings, and shows nodes on a map.
+The latest test build, **[0.1.0 test 11](../../releases/tag/v0.1.0-test.11)**, connects to a radio over Bluetooth, USB (Android) or Wi-Fi, sends and receives channel and direct messages with retries, reconnects by itself, shows unread counts and notifications, manages contacts and channels (with QR codes), changes the radio's own settings, shows nodes on a map, and logs in to repeaters and room servers.
 
 ## Installs alongside the current app
 
