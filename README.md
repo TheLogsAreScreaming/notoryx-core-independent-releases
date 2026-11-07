@@ -27,10 +27,10 @@ Progress so far:
 | Map and node details | Done |
 | QR codes for contacts and channels | Done |
 | Repeater and room tools (log in, status, console) | Done |
-| Message search | In review |
-| Delivery details for sent messages | In review |
-| Staying connected in the background (Android) | In progress |
-| Path trace | Planned |
+| Message search | Done (next test build) |
+| Delivery details for sent messages | Done (next test build) |
+| Staying connected in the background (Android) | In review |
+| Path trace | In review |
 
 The latest test build, **[0.1.0 test 11](../../releases/tag/v0.1.0-test.11)**, connects to a radio over Bluetooth, USB (Android) or Wi-Fi, sends and receives channel and direct messages with retries, reconnects by itself, shows unread counts and notifications, manages contacts and channels (with QR codes), changes the radio's own settings, shows nodes on a map, and logs in to repeaters and room servers.
 
