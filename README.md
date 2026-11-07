@@ -31,6 +31,9 @@ Progress so far:
 | Delivery details for sent messages | Done |
 | Staying connected in the background (Android) | Done, needs a phone test |
 | Path trace | Done |
+| Packet log (everything the radio hears) | In review |
+| Smaller phone-only Android download | In review |
+| Map works offline where you've looked | In review |
 
 The latest test build, **[0.1.0 test 12](../../releases/tag/v0.1.0-test.12)**, connects to a radio over Bluetooth, USB (Android) or Wi-Fi, sends and receives channel and direct messages with retries, reconnects by itself, shows unread counts and notifications, manages contacts and channels (with QR codes), changes the radio's own settings, shows nodes on a map, logs in to repeaters and room servers, searches messages, explains deliveries, traces routes, and stays connected in the background on Android.
 
