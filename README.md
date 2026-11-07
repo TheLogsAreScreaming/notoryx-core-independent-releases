@@ -22,10 +22,11 @@ Progress so far:
 | Automatic reconnect (at launch and after a drop) | Works on Mac; fixing Android |
 | Unread counts, muting and notifications | Done |
 | Add, share and manage contacts and channels | Done |
+| Radio settings and local mesh presets | Done |
 | Local mesh settings (suggests your area's radio settings) | In review |
-| Nodes, map and radio settings screens | Planned |
+| Map and node details | Planned |
 
-The latest test build, **[0.1.0 test 8](../../releases/tag/v0.1.0-test.8)**, connects to a radio over Bluetooth, USB (Android) or Wi-Fi, sends and receives channel and direct messages with retries, reconnects by itself, shows unread counts and notifications, and lets you add, share and manage contacts and channels.
+The latest test build, **[0.1.0 test 9](../../releases/tag/v0.1.0-test.9)**, connects to a radio over Bluetooth, USB (Android) or Wi-Fi, sends and receives channel and direct messages with retries, reconnects by itself, shows unread counts and notifications, manages contacts and channels, and changes the radio's own settings, including your local mesh's suggested settings.
 
 ## Installs alongside the current app
 
