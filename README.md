@@ -34,8 +34,10 @@ Progress so far:
 | Packet log (everything the radio hears) | Done |
 | Smaller phone-only Android download (39 MB) | Done |
 | Map works offline where you've looked | Done |
+| Telemetry history (battery and sensors over time) | Done |
+| Quick messages and drafts | Done |
 
-The latest test build, **[0.1.0 test 13](../../releases/tag/v0.1.0-test.13)**, connects to a radio over Bluetooth, USB (Android) or Wi-Fi, sends and receives channel and direct messages with retries, reconnects by itself, shows unread counts and notifications, manages contacts and channels (with QR codes), changes the radio's own settings, shows nodes on a map, logs in to repeaters and room servers, searches messages, explains deliveries, traces routes, stays connected in the background on Android, logs every packet heard, and keeps the map working offline where you've looked.
+The latest test build, **[0.1.0 test 14](../../releases/tag/v0.1.0-test.14)**, connects to a radio over Bluetooth, USB (Android) or Wi-Fi, sends and receives channel and direct messages with retries, reconnects by itself, shows unread counts and notifications, manages contacts and channels (with QR codes), changes the radio's own settings, shows nodes on a map, logs in to repeaters and room servers, searches messages, explains deliveries, traces routes, stays connected in the background on Android, logs every packet heard, keeps the map working offline where you've looked, charts battery and sensor telemetry, and has one-tap quick messages and saved drafts.
 
 ## Which Android file?
 
