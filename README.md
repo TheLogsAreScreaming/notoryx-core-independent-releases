@@ -36,8 +36,13 @@ Progress so far:
 | Map works offline where you've looked | Done |
 | Telemetry history (battery and sensors over time) | Done |
 | Quick messages and drafts | Done |
+| Reactions and replies | Done |
+| SOS and check-ins (with a missed check-in alert) | Done |
+| Noise floor history | Done, needs a radio test |
+| Contact meter and making room for new contacts | Done |
+| Automatic updates with Obtainium | Done |
 
-The latest test build, **[0.1.0 test 14](../../releases/tag/v0.1.0-test.14)**, connects to a radio over Bluetooth, USB (Android) or Wi-Fi, sends and receives channel and direct messages with retries, reconnects by itself, shows unread counts and notifications, manages contacts and channels (with QR codes), changes the radio's own settings, shows nodes on a map, logs in to repeaters and room servers, searches messages, explains deliveries, traces routes, stays connected in the background on Android, logs every packet heard, keeps the map working offline where you've looked, charts battery and sensor telemetry, and has one-tap quick messages and saved drafts.
+The latest test build, **[0.1.0 test 15](../../releases/tag/v0.1.0-test.15)**, connects to a radio over Bluetooth, USB (Android) or Wi-Fi, sends and receives channel and direct messages with retries, reconnects by itself, shows unread counts and notifications, manages contacts and channels (with QR codes), changes the radio's own settings, shows nodes on a map, logs in to repeaters and room servers, searches messages, explains deliveries, traces routes, stays connected in the background on Android, logs every packet heard, keeps the map working offline where you've looked, charts battery and sensor telemetry, has one-tap quick messages and saved drafts, reactions and replies, SOS and check-ins with a missed check-in alert, a noise floor chart, and a contact meter that helps make room when the radio is full.
 
 ## Which Android file?
 
@@ -45,6 +50,18 @@ The latest test build, **[0.1.0 test 14](../../releases/tag/v0.1.0-test.14)**, c
 - `…-android.apk` (about 81 MB): older 32-bit phones, Chromebooks and emulators.
 
 Both have the same version and signature, so either updates the other in place.
+
+## Automatic updates (Obtainium)
+
+[Obtainium](https://github.com/ImranR98/Obtainium) can install new Android builds from here as they come out:
+
+1. In Obtainium, tap **Add App**.
+2. **App source URL:** `https://github.com/TheLogsAreScreaming/notoryx-core-independent-releases`
+3. Turn on **Include prereleases**. Every test build is a pre-release, so without this Obtainium finds nothing.
+4. **Filter APKs by regular expression:** `arm64` for most phones, or `android\.apk$` for the full build.
+5. Tap **Add**, then **Install**. A copy you installed by hand gets updated too, because the signing key is the same.
+
+This works from test 15 on. Earlier builds all reported version `0.1.0`, so Obtainium couldn't tell them apart.
 
 ## Installs alongside the current app
 
