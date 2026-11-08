@@ -32,22 +32,28 @@ Progress so far:
 | Staying connected in the background (Android) | Done, needs a phone test |
 | Path trace | Done |
 | Packet log (everything the radio hears) | Done |
-| Smaller phone-only Android download (39 MB) | Done |
+| Smaller phone-only Android download (40 MB) | Done |
 | Map works offline where you've looked | Done |
 | Telemetry history (battery and sensors over time) | Done |
 | Quick messages and drafts | Done |
 | Reactions and replies | Done |
-| SOS and check-ins (with a missed check-in alert) | Done |
+| SOS (hold to send, repeats until answered, I'm safe) | Done |
+| Check-ins: four kinds, trip contacts, who it reached, quiet warnings | Done |
 | Noise floor history | Done, needs a radio test |
 | Contact meter and making room for new contacts | Done |
 | Automatic updates with Obtainium | Done |
+| About screen with details for problem reports | Done |
+| Encrypted backup and restore | Done |
+| Block senders, highlight mentions | Done |
+| Find channels (heard on air, near you, directory) | Done, needs a radio test |
+| Share a position or contact in chat | Done |
 
-The latest test build, **[0.1.0 test 15](../../releases/tag/v0.1.0-test.15)**, connects to a radio over Bluetooth, USB (Android) or Wi-Fi, sends and receives channel and direct messages with retries, reconnects by itself, shows unread counts and notifications, manages contacts and channels (with QR codes), changes the radio's own settings, shows nodes on a map, logs in to repeaters and room servers, searches messages, explains deliveries, traces routes, stays connected in the background on Android, logs every packet heard, keeps the map working offline where you've looked, charts battery and sensor telemetry, has one-tap quick messages and saved drafts, reactions and replies, SOS and check-ins with a missed check-in alert, a noise floor chart, and a contact meter that helps make room when the radio is full.
+The latest test build, **[0.1.0 test 16](../../releases/tag/v0.1.0-test.16)**, connects to a radio over Bluetooth, USB (Android) or Wi-Fi, sends and receives channel and direct messages with retries, reconnects by itself, shows unread counts and notifications, manages contacts and channels (with QR codes), changes the radio's own settings, shows nodes on a map, logs in to repeaters and room servers, searches messages, explains deliveries, traces routes, stays connected in the background on Android, logs every packet heard, keeps the map working offline where you've looked, charts battery and sensor telemetry, has one-tap quick messages and saved drafts, reactions and replies, an SOS that repeats until someone answers, check-ins to up to six trip contacts showing who each reached, a noise floor chart, a contact meter that helps make room when the radio is full, encrypted backup and restore, blocking and highlighted mentions, a way to find channels in use nearby, and sharing positions and contacts in chat.
 
 ## Which Android file?
 
-- `…-android-arm64.apk` (about 39 MB): almost every phone since 2017. Start here.
-- `…-android.apk` (about 81 MB): older 32-bit phones, Chromebooks and emulators.
+- `…-android-arm64.apk` (about 40 MB): almost every phone since 2017. Start here.
+- `…-android.apk` (about 83 MB): older 32-bit phones, Chromebooks and emulators.
 
 Both have the same version and signature, so either updates the other in place.
 
