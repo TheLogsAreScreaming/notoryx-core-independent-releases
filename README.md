@@ -60,9 +60,12 @@ Progress so far:
 | Field guide | Done |
 | App-icon shortcuts (Android) | Done, needs a phone test |
 | Separate Bluetooth and app logs | Done |
-| Open saved chats and settings without a radio | Done |
+| Full app and menus with or without a radio | Done, needs a phone test |
+| Trusted contact's command line | Done, needs a radio test |
+| Channel post regions (real region scoping) | Done, needs a radio test |
+| SALUTE and 9-Line reports | Done, needs a radio test |
 
-The latest test build, **[0.1.0 test 16](../../releases/tag/v0.1.0-test.16)**, connects to a radio over Bluetooth, USB (Android) or Wi-Fi, sends and receives channel and direct messages with retries, reconnects by itself, shows unread counts and notifications, manages contacts and channels (with QR codes), changes the radio's own settings, shows nodes on a map, logs in to repeaters and room servers, searches messages, explains deliveries, traces routes, stays connected in the background on Android, logs every packet heard, keeps the map working offline where you've looked, charts battery and sensor telemetry, has one-tap quick messages and saved drafts, reactions and replies, an SOS that repeats until someone answers, check-ins to up to six trip contacts showing who each reached, a noise floor chart, a contact meter that helps make room when the radio is full, encrypted backup and restore, blocking and highlighted mentions, a way to find channels in use nearby, and sharing positions and contacts in chat.
+The latest test build, **[0.1.0 test 18](../../releases/tag/v0.1.0-test.18)**, connects to a radio over Bluetooth, USB (Android) or Wi-Fi, sends and receives channel and direct messages with retries, reconnects by itself, shows unread counts and notifications, manages contacts and channels (with QR codes), changes the radio's own settings, shows nodes on a map, logs in to repeaters and room servers, searches messages, explains deliveries, traces routes, stays connected in the background on Android, logs every packet heard, keeps the map working offline where you've looked, charts battery and sensor telemetry, has one-tap quick messages and saved drafts, reactions and replies, an SOS that repeats until someone answers, check-ins to up to six trip contacts showing who each reached, a noise floor chart, a contact meter that helps make room when the radio is full, encrypted backup and restore, blocking and highlighted mentions, a way to find channels in use nearby, and sharing positions and contacts in chat.
 
 ## Which Android file?
 
