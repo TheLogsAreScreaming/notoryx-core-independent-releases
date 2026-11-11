@@ -67,8 +67,18 @@ Progress so far:
 | Message forwarding and scheduled messages | Done, needs a radio test |
 | Auto-replies and away messages | Done, needs a radio test |
 | App lock (fingerprint, face or screen lock) | Done, needs a phone test |
+| Encrypted chat history | Done, needs a phone test |
+| Repeater IDs and region setup | Done, needs a radio test |
+| Community radio presets by country | Done |
+| Android home-screen widget | Done, needs a phone test |
+| Screen-reader checks | First pass done; needs a TalkBack check |
+| Read aloud | Done, needs a phone test |
+| Spanish (AI-translated) and language picker | Done |
+| SOS relay | Done, needs a two-radio test |
+| Windows download | Builds; untested on a real PC |
+| iPhone | Compiles in CI; needs an Apple developer account |
 
-The latest test build, **[0.1.0 test 19](../../releases/tag/v0.1.0-test.19)**, connects to a radio over Bluetooth, USB (Android) or Wi-Fi, sends and receives channel and direct messages with retries, reconnects by itself, shows unread counts and notifications, manages contacts and channels (with QR codes), changes the radio's own settings, shows nodes on a map, logs in to repeaters and room servers, searches messages, explains deliveries, traces routes, stays connected in the background on Android, logs every packet heard, keeps the map working offline where you've looked, charts battery and sensor telemetry, has one-tap quick messages and saved drafts, reactions and replies, an SOS that repeats until someone answers, check-ins to up to six trip contacts showing who each reached, a noise floor chart, a contact meter that helps make room when the radio is full, encrypted backup and restore, blocking and highlighted mentions, a way to find channels in use nearby, and sharing positions and contacts in chat.
+The latest test build, **[0.1.0 test 20](../../releases/tag/v0.1.0-test.20)**, connects to a radio over Bluetooth, USB (Android) or Wi-Fi, sends and receives channel and direct messages with retries, reconnects by itself, shows unread counts and notifications, manages contacts and channels (with QR codes), changes the radio's own settings, shows nodes on a map, logs in to repeaters and room servers, searches messages, explains deliveries, traces routes, stays connected in the background on Android, logs every packet heard, keeps the map working offline where you've looked, charts battery and sensor telemetry, has one-tap quick messages and saved drafts, reactions and replies, an SOS that repeats until someone answers, check-ins to up to six trip contacts showing who each reached, a noise floor chart, a contact meter that helps make room when the radio is full, encrypted backup and restore, blocking and highlighted mentions, a way to find channels in use nearby, and sharing positions and contacts in chat.
 
 ## Which Android file?
 
