@@ -2,7 +2,22 @@
 
 **Off-grid messaging over your MeshCore LoRa radio.** Part of the **NOTORYX** off-grid communications family. **No Towers. No Limits.**
 
-This repository hosts builds of the new NOTORYX Core for Android, iPhone and Mac. Get them from **[Releases](../../releases)**.
+This repository hosts builds of the new NOTORYX Core for Android, Mac, Windows and iPhone. Get them from **[Releases](../../releases)**.
+
+<table>
+  <tr>
+    <td><img src="screenshots/chats.png" width="200" alt="Chats tab with Public and #trail channels and unread counts"></td>
+    <td><img src="screenshots/contacts.png" width="200" alt="Contacts tab with nodes shown in their chosen colours"></td>
+    <td><img src="screenshots/node.png" width="200" alt="Node details for a repeater, with Compass, Terrain and Photo or colour buttons"></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/terrain.png" width="200" alt="Terrain profile showing a hill cutting into the Fresnel zone, 38% clear"></td>
+    <td><img src="screenshots/compass.png" width="200" alt="Compass arrow pointing to a repeater 17 km away"></td>
+    <td><img src="screenshots/background.png" width="200" alt="Chats on frosted glass cards over a mesh gradient background"></td>
+  </tr>
+</table>
+
+<sub>Test 26 screens with a test radio and made-up names and places.</sub>
 
 ## Status: in development, test builds out
 
@@ -88,6 +103,18 @@ Progress so far:
 | Tiny photos over the mesh | Done, needs a two-radio test |
 | Images and GIFs from links (tap to load) | Done |
 | Community moderation (NOTORYX Sentinel, opt-in) | Done, needs a phone test |
+| Route view, route picker and network view | Done, needs a radio test |
+| Nearby repeater test | Done, needs a radio test |
+| Zone and trail alerts, favourites-only filter | Done, needs a phone test |
+| Identity key backup and repeater names | Done, needs a radio test |
+| Node journal, trace cards and timeline | Done, needs a radio test |
+| Offline map packs (your own MBTiles) | Done, needs a phone test |
+| Observer reach (which listening stations heard you) | Done, needs a live-server test |
+| Area-limited channel posts (experimental, flood-corridor firmware) | Done, needs a radio test |
+| Terrain and Fresnel zone check | Done, checked on a phone |
+| Compass arrow to a node | Done, checked on a phone |
+| Photo or colour per node | Done, colours checked on a phone |
+| Backgrounds with frosted-glass lists | Done, checked on a phone |
 | iPhone | Compiles in CI; needs an Apple developer account |
 
 The latest test build, **[0.1.0 test 26](../../releases/tag/v0.1.0-test.26)** (new: a terrain and Fresnel zone check, a compass arrow to any node, a photo or colour per node, and custom backgrounds with glass cards; untested on radios), connects to a radio over Bluetooth, USB (Android) or Wi-Fi, sends and receives channel and direct messages with retries, reconnects by itself, shows unread counts and notifications, manages contacts and channels (with QR codes), changes the radio's own settings, shows nodes on a map, logs in to repeaters and room servers, searches messages, explains deliveries, traces routes, stays connected in the background on Android, logs every packet heard, keeps the map working offline where you've looked, charts battery and sensor telemetry, has one-tap quick messages and saved drafts, reactions and replies, an SOS that repeats until someone answers, check-ins to up to six trip contacts showing who each reached, a noise floor chart, a contact meter that helps make room when the radio is full, encrypted backup and restore, blocking and highlighted mentions, a way to find channels in use nearby, and sharing positions and contacts in chat.
