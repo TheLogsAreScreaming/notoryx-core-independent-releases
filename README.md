@@ -88,7 +88,7 @@ Progress so far:
 | Android home-screen widget | Done, needs a phone test |
 | Screen-reader checks | First pass done; needs a TalkBack check |
 | Read aloud | Done, needs a phone test |
-| Spanish (AI-translated) and language picker | Done |
+| 18 languages (AI-translated) and language picker | Done, needs checks by native speakers |
 | SOS relay | Done, needs a two-radio test |
 | Windows download | Builds; untested on a real PC |
 | Signed SOS and channel posts | Done, needs a two-radio test |
@@ -117,12 +117,12 @@ Progress so far:
 | Backgrounds with frosted-glass lists | Done, checked on a phone |
 | iPhone | Compiles in CI; needs an Apple developer account |
 
-The latest test build, **[0.1.0 test 26](../../releases/tag/v0.1.0-test.26)** (new: a terrain and Fresnel zone check, a compass arrow to any node, a photo or colour per node, and custom backgrounds with glass cards; untested on radios), connects to a radio over Bluetooth, USB (Android) or Wi-Fi, sends and receives channel and direct messages with retries, reconnects by itself, shows unread counts and notifications, manages contacts and channels (with QR codes), changes the radio's own settings, shows nodes on a map, logs in to repeaters and room servers, searches messages, explains deliveries, traces routes, stays connected in the background on Android, logs every packet heard, keeps the map working offline where you've looked, charts battery and sensor telemetry, has one-tap quick messages and saved drafts, reactions and replies, an SOS that repeats until someone answers, check-ins to up to six trip contacts showing who each reached, a noise floor chart, a contact meter that helps make room when the radio is full, encrypted backup and restore, blocking and highlighted mentions, a way to find channels in use nearby, and sharing positions and contacts in chat.
+The latest test build, **[0.1.0 test 30](../../releases/tag/v0.1.0-test.30)** (new: the whole app in 18 languages, translated by AI and not yet checked by native speakers; test 28 and 29 added a live Traffic view on the map, checked with a real radio), connects to a radio over Bluetooth, USB (Android) or Wi-Fi, sends and receives channel and direct messages with retries, reconnects by itself, shows unread counts and notifications, manages contacts and channels (with QR codes), changes the radio's own settings, shows nodes on a map, logs in to repeaters and room servers, searches messages, explains deliveries, traces routes, stays connected in the background on Android, logs every packet heard, keeps the map working offline where you've looked, charts battery and sensor telemetry, has one-tap quick messages and saved drafts, reactions and replies, an SOS that repeats until someone answers, check-ins to up to six trip contacts showing who each reached, a noise floor chart, a contact meter that helps make room when the radio is full, encrypted backup and restore, blocking and highlighted mentions, a way to find channels in use nearby, and sharing positions and contacts in chat.
 
 ## Which Android file?
 
-- `…-android-arm64.apk` (about 40 MB): almost every phone since 2017. Start here.
-- `…-android.apk` (about 83 MB): older 32-bit phones, Chromebooks and emulators.
+- `…-android-arm64.apk` (about 56 MB): almost every phone since 2017. Start here.
+- `…-android.apk` (about 157 MB): older 32-bit phones, Chromebooks and emulators.
 
 Both have the same version and signature, so either updates the other in place.
 
