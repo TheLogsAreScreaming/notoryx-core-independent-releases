@@ -88,7 +88,7 @@ Progress so far:
 | Android home-screen widget | Done, needs a phone test |
 | Screen-reader checks | First pass done; needs a TalkBack check |
 | Read aloud | Done, needs a phone test |
-| 18 languages (AI-translated) and language picker | Done, needs checks by native speakers |
+| 18 languages (AI-translated) and language picker | Done; every language checked on a phone for layout, wording still needs native speakers |
 | SOS relay | Done, needs a two-radio test |
 | Windows download | Builds; untested on a real PC |
 | Signed SOS and channel posts | Done, needs a two-radio test |
