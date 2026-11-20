@@ -17,11 +17,11 @@ This repository hosts builds of the new NOTORYX Core for Android, Mac, Windows a
   </tr>
 </table>
 
-<sub>Test 26 screens with a test radio and made-up names and places.</sub>
+<sub>Test 26 screens with a test radio and made-up names and places. Newer builds add more, such as the Traffic map and range rings.</sub>
 
 ## Status: in development, test builds out
 
-This edition of NOTORYX Core is being written from scratch in [notoryx-core-independent](https://github.com/TheLogsAreScreaming/notoryx-core-independent). Until it matches the current app's features, the current NOTORYX Core keeps shipping from [notoryx-core-releases](https://github.com/TheLogsAreScreaming/notoryx-core-releases) and stays the one to use every day.
+This edition of NOTORYX Core is being written from scratch (MIT licensed). Until it matches the current app's features, the current NOTORYX Core keeps shipping from [notoryx-core-releases](https://github.com/TheLogsAreScreaming/notoryx-core-releases) and stays the one to use every day.
 
 Progress so far:
 
@@ -115,6 +115,8 @@ Progress so far:
 | Compass arrow to a node | Done, checked on a phone |
 | Photo or colour per node | Done, colours checked on a phone |
 | Backgrounds with frosted-glass lists | Done, checked on a phone |
+| Live Traffic map (packets drawn hop by hop) | Done, checked with a real radio |
+| Stale-node badge and range rings | Done, checked on a phone with a radio |
 | iPhone | Compiles in CI; needs an Apple developer account |
 
 The latest test build, **[0.1.0 test 34](../../releases/tag/v0.1.0-test.34)** (new: range rings stay small and readable near the traffic card and toolbar; test 33 stopped marking nodes with an unset clock as stale, checked on a phone; test 31 added a stale-node badge and range rings, checked on a phone with a radio; test 30 put the whole app in 18 languages, translated by AI and not yet checked by native speakers; test 28 and 29 added a live Traffic view on the map, checked with a real radio), connects to a radio over Bluetooth, USB (Android) or Wi-Fi, sends and receives channel and direct messages with retries, reconnects by itself, shows unread counts and notifications, manages contacts and channels (with QR codes), changes the radio's own settings, shows nodes on a map, logs in to repeaters and room servers, searches messages, explains deliveries, traces routes, stays connected in the background on Android, logs every packet heard, keeps the map working offline where you've looked, charts battery and sensor telemetry, has one-tap quick messages and saved drafts, reactions and replies, an SOS that repeats until someone answers, check-ins to up to six trip contacts showing who each reached, a noise floor chart, a contact meter that helps make room when the radio is full, encrypted backup and restore, blocking and highlighted mentions, a way to find channels in use nearby, and sharing positions and contacts in chat.
