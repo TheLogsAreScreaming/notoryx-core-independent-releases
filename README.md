@@ -1,23 +1,35 @@
-# NOTORYX Core downloads (independent edition)
+<p align="center">
+  <img src="banner.jpg" alt="NOTORYX Independent: the steel eagle-N emblem with the words NOTORYX Independent, Engineered for independence">
+</p>
+
+# NOTORYX Independent downloads
 
 **Off-grid messaging over your MeshCore LoRa radio.** Part of the **NOTORYX** off-grid communications family. **No Towers. No Limits.**
 
-This repository hosts builds of the new NOTORYX Core for Android, Mac, Windows and iPhone. Get them from **[Releases](../../releases)**.
+This repository hosts builds of NOTORYX Independent, the new from-scratch edition of NOTORYX Core, for Android, Mac and Windows. Get them from **[Releases](../../releases)**.
 
 <table>
   <tr>
-    <td><img src="screenshots/chats.png" width="200" alt="Chats tab with Public and #trail channels and unread counts"></td>
-    <td><img src="screenshots/contacts.png" width="200" alt="Contacts tab with nodes shown in their chosen colours"></td>
-    <td><img src="screenshots/node.png" width="200" alt="Node details for a repeater, with Compass, Terrain and Photo or colour buttons"></td>
+    <td><img src="screenshots/chats.png" width="200" alt="Chats tab in the BLACKOUT theme with Public and #trail channels, unread counts and the radio's battery"></td>
+    <td><img src="screenshots/conversation.png" width="200" alt="The #trail channel with received messages, a SARNEG message with a tap-to-decode line, and one sent message"></td>
+    <td><img src="screenshots/contacts.png" width="200" alt="Contacts tab with repeaters, people and a room in their chosen colours, one marked stale"></td>
   </tr>
   <tr>
+    <td><img src="screenshots/traffic.png" width="200" alt="Live Traffic map with an advert drawn hop by hop and its route card"></td>
+    <td><img src="screenshots/node.png" width="200" alt="Node details for a repeater, with Open, Route, Compass, Terrain, Photo or colour, Journal and Telemetry buttons"></td>
     <td><img src="screenshots/terrain.png" width="200" alt="Terrain profile showing a hill cutting into the Fresnel zone, 38% clear"></td>
+  </tr>
+  <tr>
     <td><img src="screenshots/compass.png" width="200" alt="Compass arrow pointing to a repeater 17 km away"></td>
+    <td><img src="screenshots/settings.png" width="200" alt="Radio settings: name, position, transmit power and LoRa settings"></td>
+    <td><img src="screenshots/sarneg.png" width="200" alt="SARNEG code word screen with the word hidden and a not-encryption warning"></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/appearance.png" width="200" alt="Appearance with the five themes, BLACKOUT selected"></td>
     <td><img src="screenshots/background.png" width="200" alt="Chats on frosted glass cards over a mesh gradient background"></td>
+    <td><sub>Screens in the default BLACKOUT theme, with a test radio and made-up names and places. The BLACKOUT icon and theme arrive in the build after test 37.</sub></td>
   </tr>
 </table>
-
-<sub>Test 26 screens with a test radio and made-up names and places. Newer builds add more, such as the Traffic map and range rings.</sub>
 
 ## Status: in development, test builds out
 
@@ -47,7 +59,7 @@ Progress so far:
 | Staying connected in the background (Android) | Done, needs a phone test |
 | Path trace | Done |
 | Packet log (everything the radio hears) | Done |
-| Smaller phone-only Android download (40 MB) | Done |
+| Smaller phone-only Android download | Done |
 | Map works offline where you've looked | Done |
 | Telemetry history (battery and sensors over time) | Done |
 | Quick messages and drafts | Done |
@@ -67,7 +79,7 @@ Progress so far:
 | Antenna hunt | Done, needs a radio test |
 | Command line for your own radio, Wi-Fi setup | Done, needs a radio test |
 | Your radio's battery and sensors on the home screen, refresh rate | Done, needs a radio test |
-| Eight themes and chat text size | Done |
+| Themes and chat text size | Done |
 | Add contacts from an advert or key, or several at once | Done, needs a radio test |
 | Auto-delete old channel messages, hide repeated posts | Done |
 | Forget last advert time | Done, needs a radio test |
@@ -97,7 +109,7 @@ Progress so far:
 | Network scan across presets | Done, needs a supervised radio test |
 | Path graph | Done, needs a radio test |
 | MQTT bridge (packet feed) | Done, needs a real broker test |
-| USB radios on Mac and Linux | Done, needs a radio test |
+| USB radios on Mac | Done, needs a radio test |
 | Link previews (tap to load) | Done |
 | On-device translation (Android, iPhone) | Done, needs a phone test |
 | Tiny photos over the mesh | Done, needs a two-radio test |
@@ -117,16 +129,18 @@ Progress so far:
 | Backgrounds with frosted-glass lists | Done, checked on a phone |
 | Live Traffic map (packets drawn hop by hop) | Done, checked with a real radio |
 | Stale-node badge and range rings | Done, checked on a phone with a radio |
+| SARNEG code words (auto-clear, Random word, well-known word warning) | Done, checked on a phone (auto-clear not yet) |
+| BLACKOUT icon and theme (default), five themes in all | Next build |
 | iPhone | Compiles in CI; needs an Apple developer account |
 
-The latest test build, **[0.1.0 test 37](../../releases/tag/v0.1.0-test.37)** (new: SARNEG clears copied text, typed numbers and decoded results after a minute, adds a Random word button and warns about well-known code words, not yet checked on a phone; tests 35 and 36 added SARNEG code words, checked on a phone; test 34: range rings stay small and readable near the traffic card and toolbar; test 33 stopped marking nodes with an unset clock as stale, checked on a phone; test 31 added a stale-node badge and range rings, checked on a phone with a radio; test 30 put the whole app in 18 languages, translated by AI and not yet checked by native speakers; test 28 and 29 added a live Traffic view on the map, checked with a real radio), connects to a radio over Bluetooth, USB (Android) or Wi-Fi, sends and receives channel and direct messages with retries, reconnects by itself, shows unread counts and notifications, manages contacts and channels (with QR codes), changes the radio's own settings, shows nodes on a map, logs in to repeaters and room servers, searches messages, explains deliveries, traces routes, stays connected in the background on Android, logs every packet heard, keeps the map working offline where you've looked, charts battery and sensor telemetry, has one-tap quick messages and saved drafts, reactions and replies, an SOS that repeats until someone answers, check-ins to up to six trip contacts showing who each reached, a noise floor chart, a contact meter that helps make room when the radio is full, encrypted backup and restore, blocking and highlighted mentions, a way to find channels in use nearby, and sharing positions and contacts in chat.
+The latest test build is **[0.1.0 test 37](../../releases/tag/v0.1.0-test.37)** (21 November 2026). It adds SARNEG code words: send grids, frequencies and times as letters from a code word your team agrees on, and tap a received `[SARNEG]` message to decode it. Copied text and decoded results clear after a minute, a Random word button picks a fresh word, and the app warns about well-known words. The same format and code-word QR code work in every NOTORYX app. It keeps numbers away from a casual listener; it isn't encryption. [What SARNEG is and why we added it](https://meshmayhem.org/notoryx/#sarneg).
 
-**Coming in the next build: SARNEG code words.** Send grids, frequencies and times as letters from a code word your team agrees on, and tap a received `[SARNEG]` message to decode it. The same format and code-word QR code work in every NOTORYX app. It keeps numbers away from a casual listener; it isn't encryption. [What SARNEG is and why we added it](https://meshmayhem.org/notoryx/#sarneg).
+**Next build:** the new NOTORYX BLACKOUT icon, and the BLACKOUT theme (black and steel grey, with red and amber kept for warnings) as the default. Automatic, Trail, High contrast and Colour-blind safe stay; Light, Dark, Night and Lake are removed, and anyone who had one of those picked moves to BLACKOUT.
 
 ## Which Android file?
 
-- `…-android-arm64.apk` (about 56 MB): almost every phone since 2017. Start here.
-- `…-android.apk` (about 157 MB): older 32-bit phones, Chromebooks and emulators.
+- `…-android-arm64.apk` (about 54 MB): almost every phone since 2017. Start here.
+- `…-android.apk` (about 150 MB): older 32-bit phones, Chromebooks and emulators.
 
 Both have the same version and signature, so either updates the other in place.
 
@@ -144,7 +158,7 @@ This works from test 15 on. Earlier builds all reported version `0.1.0`, so Obta
 
 ## Installs alongside the current app
 
-The new app has its own app ID, so you can keep both installed. It shows up as **NOTORYX Independent**, with a silver NOTORYX icon, while it's in development.
+The new app has its own app ID, so you can keep both installed. It shows up as **NOTORYX Independent**. Up to test 37 it has a silver NOTORYX icon; from the next build on it has the steel BLACKOUT eagle-N.
 
 | | Current NOTORYX Core | NOTORYX Independent |
 |---|---|---|
@@ -160,6 +174,7 @@ Each release includes:
 
 - **Android:** an `.apk`. Open it on your phone and allow installs from your browser or file manager if asked.
 - **Mac** (Intel and Apple silicon, macOS 12 or newer): a `.zip` with the app. Unzip it, move it to Applications, and the first time right-click it and choose **Open** (it isn't notarized yet). Allow Bluetooth when asked.
+- **Windows:** a `.zip` with the app. Unzip it anywhere and run `notoryx_independent.exe`. It isn't signed, so Windows may warn you first. Not yet tested on a real PC.
 - **Checksums:** a `SHA256SUMS.txt` file, so you can confirm a download wasn't changed:
 
 ```bash
