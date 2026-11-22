@@ -27,7 +27,7 @@ This repository hosts builds of NOTORYX Independent, the new from-scratch editio
   <tr>
     <td><img src="screenshots/appearance.png" width="200" alt="Appearance with the five themes, BLACKOUT selected"></td>
     <td><img src="screenshots/background.png" width="200" alt="Chats on frosted glass cards over a mesh gradient background"></td>
-    <td><sub>Screens in the default BLACKOUT theme, with a test radio and made-up names and places. The BLACKOUT icon and theme arrive in the build after test 37.</sub></td>
+    <td><sub>Screens in the default BLACKOUT theme, with a test radio and made-up names and places. The BLACKOUT icon and theme came in test 38.</sub></td>
   </tr>
 </table>
 
@@ -130,12 +130,12 @@ Progress so far:
 | Live Traffic map (packets drawn hop by hop) | Done, checked with a real radio |
 | Stale-node badge and range rings | Done, checked on a phone with a radio |
 | SARNEG code words (auto-clear, Random word, well-known word warning) | Done, checked on a phone (auto-clear not yet) |
-| BLACKOUT icon and theme (default), five themes in all | Next build |
+| BLACKOUT icon and theme (default), five themes in all | Done in test 38, not yet checked on a phone |
 | iPhone | Compiles in CI; needs an Apple developer account |
 
-The latest test build is **[0.1.0 test 37](../../releases/tag/v0.1.0-test.37)** (21 November 2026). It adds SARNEG code words: send grids, frequencies and times as letters from a code word your team agrees on, and tap a received `[SARNEG]` message to decode it. Copied text and decoded results clear after a minute, a Random word button picks a fresh word, and the app warns about well-known words. The same format and code-word QR code work in every NOTORYX app. It keeps numbers away from a casual listener; it isn't encryption. [What SARNEG is and why we added it](https://meshmayhem.org/notoryx/#sarneg).
+The latest test build is **[0.1.0 test 38](../../releases/tag/v0.1.0-test.38)** (22 November 2026). It brings the new NOTORYX BLACKOUT icon, and the BLACKOUT theme (black and steel grey, with red and amber kept for warnings) as the default. Automatic, Trail, High contrast and Colour-blind safe stay; Light, Dark, Night and Lake are removed, and anyone who had one of those picked moves to BLACKOUT. It hasn't been tested on a phone or radios yet.
 
-**Next build:** the new NOTORYX BLACKOUT icon, and the BLACKOUT theme (black and steel grey, with red and amber kept for warnings) as the default. Automatic, Trail, High contrast and Colour-blind safe stay; Light, Dark, Night and Lake are removed, and anyone who had one of those picked moves to BLACKOUT.
+[Test 37](../../releases/tag/v0.1.0-test.37) (21 November 2026) added SARNEG code words: send grids, frequencies and times as letters from a code word your team agrees on, and tap a received `[SARNEG]` message to decode it. Copied text and decoded results clear after a minute, a Random word button picks a fresh word, and the app warns about well-known words. The same format and code-word QR code work in every NOTORYX app. It keeps numbers away from a casual listener; it isn't encryption. [What SARNEG is and why we added it](https://meshmayhem.org/notoryx/#sarneg).
 
 ## Which Android file?
 
@@ -158,7 +158,7 @@ This works from test 15 on. Earlier builds all reported version `0.1.0`, so Obta
 
 ## Installs alongside the current app
 
-The new app has its own app ID, so you can keep both installed. It shows up as **NOTORYX Independent**. Up to test 37 it has a silver NOTORYX icon; from the next build on it has the steel BLACKOUT eagle-N.
+The new app has its own app ID, so you can keep both installed. It shows up as **NOTORYX Independent**. Up to test 37 it has a silver NOTORYX icon; from test 38 on it has the steel BLACKOUT eagle-N.
 
 | | Current NOTORYX Core | NOTORYX Independent |
 |---|---|---|
