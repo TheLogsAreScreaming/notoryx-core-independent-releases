@@ -27,7 +27,7 @@ This repository hosts builds of NOTORYX Independent, the new from-scratch editio
   <tr>
     <td><img src="screenshots/appearance.png" width="200" alt="Appearance with the five themes, BLACKOUT selected"></td>
     <td><img src="screenshots/background.png" width="200" alt="Chats on frosted glass cards over a mesh gradient background"></td>
-    <td><sub>Screens in the default BLACKOUT theme, with a test radio and made-up names and places. The BLACKOUT icon and theme arrive in the build after test 37.</sub></td>
+    <td><sub>Screens in the default BLACKOUT theme, with a test radio and made-up names and places. BLACKOUT has been the default since test 38.</sub></td>
   </tr>
 </table>
 
@@ -87,7 +87,7 @@ Progress so far:
 | Field guide | Done |
 | App-icon shortcuts (Android) | Done, needs a phone test |
 | Separate Bluetooth and app logs | Done |
-| Full app and menus with or without a radio | Done, needs a phone test |
+| Full app and menus with or without a radio | Done, checked on a phone |
 | Trusted contact's command line | Done, needs a radio test |
 | Channel post regions (real region scoping) | Done, needs a radio test |
 | SALUTE and 9-Line reports | Done, needs a radio test |
@@ -98,7 +98,7 @@ Progress so far:
 | Repeater IDs and region setup | Done, needs a radio test |
 | Community radio presets by country | Done |
 | Android home-screen widget | Done, needs a phone test |
-| Screen-reader checks | First pass done; needs a TalkBack check |
+| Screen-reader checks | Automated checks on every settings screen, all five themes and large text; still needs a TalkBack check |
 | Read aloud | Done, needs a phone test |
 | 18 languages (AI-translated) and language picker | Done; every language checked on a phone for layout, wording still needs native speakers |
 | SOS relay | Done, needs a two-radio test |
@@ -129,13 +129,24 @@ Progress so far:
 | Backgrounds with frosted-glass lists | Done, checked on a phone |
 | Live Traffic map (packets drawn hop by hop) | Done, checked with a real radio |
 | Stale-node badge and range rings | Done, checked on a phone with a radio |
-| SARNEG code words (auto-clear, Random word, well-known word warning) | Done, checked on a phone (auto-clear not yet) |
-| BLACKOUT icon and theme (default), five themes in all | Next build |
+| SARNEG code words (auto-clear, Random word, well-known word warning) | Done, checked on a phone |
+| SARNEG screens hidden from screenshots (Android) | Done, checked on a phone |
+| Copied SARNEG text cleared after a minute, even if Android closed the app | Done, checked on a phone |
+| Settings kept on the phone open without a radio (SARNEG, Appearance, Backup and more) | Done, checked on a phone |
+| MeshCore fixes: channel message length, messages left on the radio, full contact list warning | Done, needs a radio test |
+| BLACKOUT icon and theme (default), five themes in all | Done, checked on a phone |
 | iPhone | Compiles in CI; needs an Apple developer account |
 
-The latest test build is **[0.1.0 test 37](../../releases/tag/v0.1.0-test.37)** (21 November 2026). It adds SARNEG code words: send grids, frequencies and times as letters from a code word your team agrees on, and tap a received `[SARNEG]` message to decode it. Copied text and decoded results clear after a minute, a Random word button picks a fresh word, and the app warns about well-known words. The same format and code-word QR code work in every NOTORYX app. It keeps numbers away from a casual listener; it isn't encryption. [What SARNEG is and why we added it](https://meshmayhem.org/notoryx/#sarneg).
+The latest test build is **[0.1.0 test 43](../../releases/tag/v0.1.0-test.43)** (25 November 2026). Copied SARNEG text is now cleared after one minute even if Android has frozen or closed the app. If you allow alarms for the app in SARNEG → Options, it happens right on the minute.
 
-**Next build:** the new NOTORYX BLACKOUT icon, and the BLACKOUT theme (black and steel grey, with red and amber kept for warnings) as the default. Automatic, Trail, High contrast and Colour-blind safe stay; Light, Dark, Night and Lake are removed, and anyone who had one of those picked moves to BLACKOUT.
+Since test 37:
+
+- **Test 38:** the BLACKOUT icon and theme, now the default. Light, Dark, Night and Lake are gone; anyone who used one moves to BLACKOUT.
+- **Tests 39 and 40:** SARNEG screens are hidden from screenshots on Android, plus more SARNEG options: keep the grid zone in clear, send without the marker, delete words after a day, SARDOT, number and letter of the day, and a guide on SARNEG versus real encryption.
+- **Test 41:** settings kept on the phone open without a radio, a plain message when another app holds the radio, MeshCore protocol fixes, "Last hop" on the Traffic map, report status for community moderation, and accessibility fixes.
+- **Tests 42 and 43:** copied SARNEG text is cleared by Android itself, so it still happens if the app has been closed.
+
+Some keyboards, including Samsung's, keep their own clipboard history and ignore the request not to. No app can clear another app's history, so clear it in the keyboard if you need to.
 
 ## Which Android file?
 
@@ -158,7 +169,7 @@ This works from test 15 on. Earlier builds all reported version `0.1.0`, so Obta
 
 ## Installs alongside the current app
 
-The new app has its own app ID, so you can keep both installed. It shows up as **NOTORYX Independent**. Up to test 37 it has a silver NOTORYX icon; from the next build on it has the steel BLACKOUT eagle-N.
+The new app has its own app ID, so you can keep both installed. It shows up as **NOTORYX Independent**, with the steel BLACKOUT eagle-N icon from test 38 on (earlier builds had a silver NOTORYX icon).
 
 | | Current NOTORYX Core | NOTORYX Independent |
 |---|---|---|
