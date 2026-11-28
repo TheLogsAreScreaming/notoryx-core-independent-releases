@@ -57,7 +57,7 @@ Progress so far:
 | Message search | Done |
 | Delivery details for sent messages | Done |
 | Staying connected in the background (Android) | Done, needs a phone test |
-| Path trace | Done |
+| Path trace and path trace on the map (tap a node to see its route) | Done |
 | Packet log (everything the radio hears) | Done |
 | Smaller phone-only Android download | Done |
 | Map works offline where you've looked | Done |
@@ -135,16 +135,22 @@ Progress so far:
 | Settings kept on the phone open without a radio (SARNEG, Appearance, Backup and more) | Done, checked on a phone |
 | MeshCore fixes: channel message length, messages left on the radio, full contact list warning | Done, needs a radio test |
 | BLACKOUT icon and theme (default), five themes in all | Done, checked on a phone |
+| Reachability label for contacts | Done |
+| Who Relays Me screen | Done |
+| Relay attribution badge on messages | Done |
+| In-app nRF52 firmware updates over Bluetooth (Nordic DFU) | Done, needs a radio test |
+| Deep-link sharing (open a contact or position from a link or QR code) | Done |
 | iPhone | Compiles in CI; needs an Apple developer account |
 
-The latest test build is **[0.1.0 test 43](../../releases/tag/v0.1.0-test.43)** (25 November 2026). Copied SARNEG text is now cleared after one minute even if Android has frozen or closed the app. If you allow alarms for the app in SARNEG → Options, it happens right on the minute.
+The latest test build is **[0.1.0 test 53](../../releases/tag/v0.1.0-test.53)** (28 November 2026). Tests 52 and 53 added sorting chats by most-recent message, scrolling to oldest unread, a CLI firmware guard and confirmation for destructive commands, a **reachability label** for contacts, telemetry subscribe on connect (firmware v1.18+), **in-app nRF52 firmware updates** over Bluetooth (Nordic DFU), a **Who Relays Me** screen, a **relay attribution badge** on messages, **deep-link sharing** so you can open a contact or a position from a link or QR code, and **path trace on the map** so you can tap a node and see the route its messages took.
 
 Since test 37:
 
 - **Test 38:** the BLACKOUT icon and theme, now the default. Light, Dark, Night and Lake are gone; anyone who used one moves to BLACKOUT.
 - **Tests 39 and 40:** SARNEG screens are hidden from screenshots on Android, plus more SARNEG options: keep the grid zone in clear, send without the marker, delete words after a day, SARDOT, number and letter of the day, and a guide on SARNEG versus real encryption.
 - **Test 41:** settings kept on the phone open without a radio, a plain message when another app holds the radio, MeshCore protocol fixes, "Last hop" on the Traffic map, report status for community moderation, and accessibility fixes.
-- **Tests 42 and 43:** copied SARNEG text is cleared by Android itself, so it still happens if the app has been closed.
+- **Tests 42 and 43:** copied SARNEG text is cleared by Android itself, so it still happens if the app has been closed. If you allow exact alarms for the app in SARNEG → Options, it clears on the minute.
+- **Tests 52 and 53:** sort chats by most recent, scroll to oldest unread, CLI firmware guard and destructive-command confirmation, reachability label, telemetry subscribe on connect, in-app nRF52 OTA via Nordic DFU, Who Relays Me screen, relay attribution badge, deep-link sharing, path trace on the map.
 
 Some keyboards, including Samsung's, keep their own clipboard history and ignore the request not to. No app can clear another app's history, so clear it in the keyboard if you need to.
 
